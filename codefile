@@ -1,0 +1,50 @@
+these are my total commands for git push pull 
+1. sudo su
+yum update -y
+yum install git 
+git -v 
+git config --global user.name "USER NAME"
+git config --global user.mail "USER EMAIL"
+
+git config -l
+
+have an github repository/account ready 
+
+come back to putty / linux os \
+create a file with code in it 
+[root@ip]# git init
+vi codefile
+
+type in the codes 
+
+press esc
+:wq
+
+
+git status 
+ git add.  -----or git add codefile
+
+
+git commit -m "title for code file"
+
+git status
+
+git log
+
+git show <commit id>
+
+git remote add origin <github url >
+ 
+git push origin master 
+
+enter username for github
+enter password for github
+
+
+check github repositories
+
+
+
+
+
+
